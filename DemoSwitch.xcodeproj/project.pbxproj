@@ -14,6 +14,10 @@
 		A67F5F881BE47D240022E0F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67F5F871BE47D240022E0F0 /* Images.xcassets */; };
 		A67F5F8B1BE47D240022E0F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67F5F891BE47D240022E0F0 /* LaunchScreen.xib */; };
 		A67F5F971BE47D240022E0F0 /* DemoSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F5F961BE47D240022E0F0 /* DemoSwitchTests.m */; };
+		A67F5FA41BE47FF30022E0F0 /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = A67F5FA01BE47FF30022E0F0 /* OffBlack.png */; };
+		A67F5FA51BE47FF30022E0F0 /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = A67F5FA11BE47FF30022E0F0 /* OffWhite.png */; };
+		A67F5FA61BE47FF30022E0F0 /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = A67F5FA21BE47FF30022E0F0 /* OnBlack.png */; };
+		A67F5FA71BE47FF30022E0F0 /* OnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = A67F5FA31BE47FF30022E0F0 /* OnWhite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		A67F5F901BE47D240022E0F0 /* DemoSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67F5F951BE47D240022E0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A67F5F961BE47D240022E0F0 /* DemoSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSwitchTests.m; sourceTree = "<group>"; };
+		A67F5FA01BE47FF30022E0F0 /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffBlack.png; sourceTree = "<group>"; };
+		A67F5FA11BE47FF30022E0F0 /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffWhite.png; sourceTree = "<group>"; };
+		A67F5FA21BE47FF30022E0F0 /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnBlack.png; sourceTree = "<group>"; };
+		A67F5FA31BE47FF30022E0F0 /* OnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnWhite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				A67F5F811BE47D240022E0F0 /* ViewController.h */,
 				A67F5F821BE47D240022E0F0 /* ViewController.m */,
 				A67F5F841BE47D240022E0F0 /* Main.storyboard */,
+				A67F5FA01BE47FF30022E0F0 /* OffBlack.png */,
+				A67F5FA11BE47FF30022E0F0 /* OffWhite.png */,
+				A67F5FA21BE47FF30022E0F0 /* OnBlack.png */,
+				A67F5FA31BE47FF30022E0F0 /* OnWhite.png */,
 				A67F5F871BE47D240022E0F0 /* Images.xcassets */,
 				A67F5F891BE47D240022E0F0 /* LaunchScreen.xib */,
 				A67F5F7A1BE47D240022E0F0 /* Supporting Files */,
@@ -199,9 +211,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67F5FA61BE47FF30022E0F0 /* OnBlack.png in Resources */,
 				A67F5F861BE47D240022E0F0 /* Main.storyboard in Resources */,
+				A67F5FA71BE47FF30022E0F0 /* OnWhite.png in Resources */,
 				A67F5F8B1BE47D240022E0F0 /* LaunchScreen.xib in Resources */,
 				A67F5F881BE47D240022E0F0 /* Images.xcassets in Resources */,
+				A67F5FA51BE47FF30022E0F0 /* OffWhite.png in Resources */,
+				A67F5FA41BE47FF30022E0F0 /* OffBlack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

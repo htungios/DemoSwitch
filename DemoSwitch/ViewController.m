@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *imgOn;
+@property (weak, nonatomic) IBOutlet UIButton *imgOff;
 
 @end
 
@@ -16,12 +18,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
+    [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
+    
+}
+- (IBAction)On:(id)sender {
+ if ([_imgOn.currentImage isEqual:[UIImage imageNamed:@"OnBlack"]]) {
+        [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
+        [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
+    } else {
+        [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
+        [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
+    }
+}
+- (IBAction)Off:(id)sender {
+if ([_imgOff.currentImage isEqual:[UIImage imageNamed:@"OffWhite"]]) {
+        [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
+        [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
+ } else {
+     [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
+     [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
+ }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
