@@ -18,29 +18,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
-    [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
+    [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
+    [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
     
 }
 - (IBAction)On:(id)sender {
  if ([_imgOn.currentImage isEqual:[UIImage imageNamed:@"OnBlack"]]) {
         [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
         [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
-    } else {
-        [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
-        [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
-    }
-}
-- (IBAction)Off:(id)sender {
-if ([_imgOff.currentImage isEqual:[UIImage imageNamed:@"OffWhite"]]) {
-        [_imgOff setImage:[UIImage imageNamed:@"OffBlack"] forState:normal];
-        [_imgOn setImage:[UIImage imageNamed:@"OnWhite"] forState:normal];
- } else {
-     [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
-     [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
  }
 }
+- (IBAction)Off:(id)sender {
+if ([_imgOff.currentImage isEqual:[UIImage imageNamed:@"OffBlack"]]) {
+        [_imgOff setImage:[UIImage imageNamed:@"OffWhite"] forState:normal];
+        [_imgOn setImage:[UIImage imageNamed:@"OnBlack"] forState:normal];
 
+ }
+}
 
 
 @end
