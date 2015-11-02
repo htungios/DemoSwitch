@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A67B899C1BE4C3E7009BB3EA /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A67B899B1BE4C3E7009BB3EA /* CustomSwitch.m */; };
 		A67F5F7D1BE47D240022E0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F5F7C1BE47D240022E0F0 /* main.m */; };
 		A67F5F801BE47D240022E0F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F5F7F1BE47D240022E0F0 /* AppDelegate.m */; };
 		A67F5F831BE47D240022E0F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67F5F821BE47D240022E0F0 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A67B899A1BE4C3E7009BB3EA /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		A67B899B1BE4C3E7009BB3EA /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
 		A67F5F771BE47D240022E0F0 /* DemoSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67F5F7B1BE47D240022E0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A67F5F7C1BE47D240022E0F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A67B89991BE4C310009BB3EA /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A67B899A1BE4C3E7009BB3EA /* CustomSwitch.h */,
+				A67B899B1BE4C3E7009BB3EA /* CustomSwitch.m */,
+			);
+			name = CustomSwitch;
+			sourceTree = "<group>";
+		};
 		A67F5F6E1BE47D240022E0F0 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +112,7 @@
 				A67F5FA31BE47FF30022E0F0 /* OnWhite.png */,
 				A67F5F871BE47D240022E0F0 /* Images.xcassets */,
 				A67F5F891BE47D240022E0F0 /* LaunchScreen.xib */,
+				A67B89991BE4C310009BB3EA /* CustomSwitch */,
 				A67F5F7A1BE47D240022E0F0 /* Supporting Files */,
 			);
 			path = DemoSwitch;
@@ -237,6 +250,7 @@
 			files = (
 				A67F5F831BE47D240022E0F0 /* ViewController.m in Sources */,
 				A67F5F801BE47D240022E0F0 /* AppDelegate.m in Sources */,
+				A67B899C1BE4C3E7009BB3EA /* CustomSwitch.m in Sources */,
 				A67F5F7D1BE47D240022E0F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +446,7 @@
 				A67F5F9C1BE47D240022E0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A67F5F9D1BE47D240022E0F0 /* Build configuration list for PBXNativeTarget "DemoSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +455,7 @@
 				A67F5F9F1BE47D240022E0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
